@@ -32,7 +32,9 @@ namespace core.Scripts.enemy_ai
               
                 
             }
-            
+
+            _currentState = EnemyState.Walk;
+
         }
         
     }

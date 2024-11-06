@@ -9,7 +9,7 @@ namespace core.Scripts.enemy_ai
     {
         [Header("AI settings")]
         
-        [SerializeField] private Transform playerToFollow;
+        [SerializeField] public Transform playerToFollow;
         [SerializeField] private float speed;
         [SerializeField] protected float walkSpeed = 2f;
         [SerializeField] protected float attackRange = 1.5f;
@@ -51,7 +51,7 @@ namespace core.Scripts.enemy_ai
             if (healthBarInstance)
                 healthBarInstance.transform.position = transform.position + Vector3.up;
 
-                switch (_currentState)
+            switch (_currentState)
             {
                 case EnemyState.Walk:
                     Move();
