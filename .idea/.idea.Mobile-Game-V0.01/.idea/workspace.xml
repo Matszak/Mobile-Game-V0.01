@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf80980-6268-459f-8639-cc934c2ed05a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyBaseBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyBaseBullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +114,8 @@
       <updated>1721719820546</updated>
       <workItem from="1721719834452" duration="8000" />
       <workItem from="1730919471867" duration="6279000" />
-      <workItem from="1730925904417" duration="791000" />
+      <workItem from="1730925915420" duration="919000" />
+      <workItem from="1730927055689" duration="638000" />
     </task>
     <servers />
   </component>

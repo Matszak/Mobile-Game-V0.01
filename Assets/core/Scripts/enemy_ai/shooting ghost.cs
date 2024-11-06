@@ -33,7 +33,12 @@ namespace core.Scripts.enemy_ai
                 
             }
 
-            _currentState = EnemyState.Walk;
+            var position = Vector3.Distance(transform.position, target.position);
+            if (position >= attackRange)
+            {
+                _currentState = EnemyState.Walk;
+            }
+          
 
         }
         

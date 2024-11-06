@@ -63,7 +63,8 @@ namespace core.Scripts.enemy_ai
                     Die();
                     break;
                 default:
-                    throw new ArgumentOutOfRangeException();
+                    transform.position = transform.position;
+                    break;
             }
         }
 
