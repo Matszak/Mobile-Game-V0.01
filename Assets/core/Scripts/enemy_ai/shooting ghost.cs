@@ -6,7 +6,7 @@ namespace core.Scripts.enemy_ai
 {
     public class shooting_ghost : EnemyAI
     {
-        [SerializeField] protected Transform target;
+        [SerializeField] public Transform target;
         [SerializeField] protected float cooldown;
         [SerializeField] protected GameObject bullet;
 
