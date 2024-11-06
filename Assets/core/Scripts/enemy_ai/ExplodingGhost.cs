@@ -29,7 +29,7 @@ namespace core.Scripts.enemy_ai
                     damageable.TakeDamage(damageAmount);
                 }
             }
-
+            Destroy(gameObject);
             _currentState = EnemyState.Die;
 
         }

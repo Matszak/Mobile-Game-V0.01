@@ -6,10 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fdf80980-6268-459f-8639-cc934c2ed05a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyBaseBullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyBaseBullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/ExplodingGhost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/ExplodingGhost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "spawn-points",
+    "git-widget-placeholder": "merge",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -116,6 +117,7 @@
       <workItem from="1730919471867" duration="6279000" />
       <workItem from="1730925915420" duration="919000" />
       <workItem from="1730927055689" duration="638000" />
+      <workItem from="1730929187966" duration="705000" />
     </task>
     <servers />
   </component>

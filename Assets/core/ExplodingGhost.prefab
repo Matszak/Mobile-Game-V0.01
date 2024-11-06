@@ -103,7 +103,7 @@ MonoBehaviour:
   attackRange: 2.87
   health: 5
   maxHealth: 5
-  healthBarPrefab: {fileID: 0}
+  healthBar: {fileID: 6850896650382502910, guid: 5652db0d6f77742428d3bb5ec85780e1, type: 3}
   timeToExplosion: 0.88
   explosionRadius: 0.83
   damageAmount: 7

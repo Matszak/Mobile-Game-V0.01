@@ -146,8 +146,8 @@ MonoBehaviour:
   playerToFollow: {fileID: 0}
   speed: 0
   walkSpeed: 2
-  attackRange: 1.5
+  attackRange: 0.83
   health: 5
   maxHealth: 5
-  healthBarPrefab: {fileID: 0}
+  healthBar: {fileID: 6850896650382502910, guid: 5652db0d6f77742428d3bb5ec85780e1, type: 3}
   damageAmount: 0

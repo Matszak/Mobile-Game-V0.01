@@ -103,7 +103,7 @@ MonoBehaviour:
   attackRange: 8.73
   health: 5
   maxHealth: 5
-  healthBarPrefab: {fileID: 0}
+  healthBar: {fileID: 6850896650382502910, guid: 5652db0d6f77742428d3bb5ec85780e1, type: 3}
   target: {fileID: 3956619906558107562, guid: 6ffad1e8c8f999446ac96da33c6c52c0, type: 3}
   cooldown: 1
   bullet: {fileID: 2537761376735300913, guid: e427ed1c969a5a04b9f76d7e763e1a55, type: 3}

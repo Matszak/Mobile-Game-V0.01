@@ -49,8 +49,8 @@ namespace core.Scripts.enemy_ai
         // Update is called once per frame
         void Update()
         {
-            if (healthBarInstance)
-                healthBarInstance.transform.position = transform.position + Vector3.up;
+            if (healthBar)
+               healthBar.transform.position = transform.position + Vector3.up;
 
             switch (_currentState)
             {
@@ -99,7 +99,7 @@ namespace core.Scripts.enemy_ai
             healthBar.UpdateHealthBar(health, maxHealth);
             if (health <= 0)
             {
-                Destroy(gameObject);
+                _currentState = EnemyState.Die;
             }
         }
 
