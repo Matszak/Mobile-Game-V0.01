@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf80980-6268-459f-8639-cc934c2ed05a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/core/Scripts/FloatingHealthBar.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/core/Scripts/FloatingHealthBar.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Merging merge-changes",
+    "git-widget-placeholder": "merge-changes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -117,7 +112,7 @@
       <workItem from="1721719834452" duration="8000" />
       <workItem from="1730919471867" duration="6279000" />
       <workItem from="1730925915420" duration="919000" />
-      <workItem from="1730927055689" duration="948000" />
+      <workItem from="1730927055689" duration="1579000" />
     </task>
     <servers />
   </component>
