@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace core.Scripts.enemy_ai
 {
-    public class ExplodingGhost : EnemyAI
+    public class ExplodingGhost : EnemyAI  
     {
         [SerializeField] private float timeToExplosion;
         [SerializeField] private float explosionRadius;
@@ -29,8 +29,8 @@ namespace core.Scripts.enemy_ai
                     damageable.TakeDamage(damageAmount);
                 }
             }
-            
-            Destroy(gameObject);
+
+            _currentState = EnemyState.Die;
 
         }
     }

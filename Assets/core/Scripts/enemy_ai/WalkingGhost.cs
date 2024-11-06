@@ -9,10 +9,11 @@ namespace core.Scripts.enemy_ai
         [Header("walking ghost")]
         [SerializeField] private float damageAmount;
         
+        
         public void Awake()
         {
             health = 3f;
-            
+            attackRange = 1f;
         }
 
         protected override void Attack()
@@ -20,10 +21,12 @@ namespace core.Scripts.enemy_ai
             if (_collider2D.TryGetComponent(out PlayerData player))
             {
                 player.TakeDamage(damageAmount);
+                _currentState = EnemyState.Die;
             }
-
-            _currentState = EnemyState.Walk;
-            
+            else
+            {
+                _currentState = EnemyState.Die;
+            }
         }
     }
 }

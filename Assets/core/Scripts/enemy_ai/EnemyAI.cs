@@ -87,6 +87,7 @@ namespace core.Scripts.enemy_ai
             if (_collider2D.TryGetComponent(out PlayerData player))
             {
                 player.TakeDamage(4f);
+                _currentState = EnemyState.Die;
             }
         }
 
@@ -97,13 +98,12 @@ namespace core.Scripts.enemy_ai
             
             if (health <= 0)
             {
-                _currentState = EnemyState.Die;
+                Destroy(gameObject);
             }
         }
 
         protected void Die()
         {
-            Destroy(healthBarInstance);
             Destroy(gameObject);
         }
     }
