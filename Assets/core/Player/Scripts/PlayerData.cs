@@ -67,6 +67,8 @@ public class PlayerData : MonoBehaviour, IDamageable
             Rigidbody2D bulletRB = bulletInstance.GetComponent<Rigidbody2D>();
                 
             bulletRB.velocity = aimDirection.normalized * BulletSpeed * FirePower;
+            
+            
         }
     }
 }

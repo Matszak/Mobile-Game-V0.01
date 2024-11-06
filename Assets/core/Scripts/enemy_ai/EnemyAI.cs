@@ -18,11 +18,12 @@ namespace core.Scripts.enemy_ai
         [Space(10)]
         protected Collider2D _collider2D;
 
-        [Header("Health Bar")]
-        [SerializeField] private GameObject healthBarPrefab;
         
-        private Slider healthBarSlider;
-        private GameObject healthBarInstance;
+        
+        [Header("Health Bar")] 
+        
+        [SerializeField] private FloatingHealthBar healthBar;
+        
         
         protected enum EnemyState
         {
@@ -35,22 +36,25 @@ namespace core.Scripts.enemy_ai
  
         void Start()
         {
+            health = maxHealth;
+            healthBar.UpdateHealthBar(health, maxHealth);
+
             _collider2D = GetComponent<Collider2D>();
             _currentState = EnemyState.Walk;
+        }
 
-            healthBarInstance = Instantiate
-                (healthBarPrefab, transform.position + Vector3.up, quaternion.identity);
-            healthBarSlider = healthBarInstance.GetComponent<Slider>();
-            healthBarSlider.maxValue = maxHealth;
-            healthBarSlider.value = health;
+        private void Awake()
+        {
+            healthBar = GetComponentInChildren<FloatingHealthBar>();
         }
 
         // Update is called once per frame
         void Update()
         {
+ 
             if (healthBarInstance)
                 healthBarInstance.transform.position = transform.position + Vector3.up;
-
+ 
             switch (_currentState)
             {
                 case EnemyState.Walk:
@@ -95,11 +99,14 @@ namespace core.Scripts.enemy_ai
         public void TakeDamage(float damage)
         {
             health -= damage;
-            healthBarSlider.value = health;
-            
+            healthBar.UpdateHealthBar(health, maxHealth);
             if (health <= 0)
             {
+<<<<<<< HEAD
                 Destroy(gameObject);
+=======
+                Die();
+>>>>>>> Mati
             }
         }
 
