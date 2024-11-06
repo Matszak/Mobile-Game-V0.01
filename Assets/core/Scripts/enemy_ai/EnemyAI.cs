@@ -102,11 +102,8 @@ namespace core.Scripts.enemy_ai
             healthBar.UpdateHealthBar(health, maxHealth);
             if (health <= 0)
             {
-<<<<<<< HEAD
                 Destroy(gameObject);
-=======
                 Die();
->>>>>>> Mati
             }
         }
 
