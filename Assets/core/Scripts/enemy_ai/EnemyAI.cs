@@ -74,8 +74,8 @@ namespace core.Scripts.enemy_ai
             var direction = (playerToFollow.position - transform.position).normalized;
             transform.position += direction * (walkSpeed * Time.deltaTime);
                 
-            var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;  
-            transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+            // var angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;  
+            // transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
 
             var position = Vector3.Distance(transform.position, playerToFollow.position);
             if (position <= attackRange)
