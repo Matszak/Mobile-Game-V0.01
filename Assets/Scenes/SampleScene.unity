@@ -855,7 +855,7 @@ MonoBehaviour:
   bullet: {fileID: 4986271477331407351, guid: d5d19e5108c856b4981b9bed9ba7ebb9, type: 3}
   bulletSpawnPoint: {fileID: 2062150269}
   BulletSpeed: 11.7
-  FireRate: 0.5
+  FireRate: 0.25
   NumberOfBullets: 1
   FirePower: 1
   lvlText: {fileID: 1103191012}
