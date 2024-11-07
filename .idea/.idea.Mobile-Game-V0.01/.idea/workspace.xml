@@ -8,15 +8,11 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Bullet.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/SpawnAroundPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/SpawnAroundPlayer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Player/bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Discover.Launch.Via.Unity": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "bullet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -65,9 +64,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\wojte\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\wojte\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\wojte\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\mateu\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\mateu\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\mateu\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -84,6 +83,14 @@
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\dev\unity\mobilegame\Mobile-Game-V0.01 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="D:\dev\unity\mobilegame\Mobile-Game-V0.01" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="UnitTests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.48f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath D:\Repozytorium\Mobile-Game-V0.01 -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="D:\Repozytorium\Mobile-Game-V0.01" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <method v="2" />
@@ -126,6 +133,7 @@
       <workItem from="1730927055689" duration="638000" />
       <workItem from="1730929187966" duration="2035000" />
       <workItem from="1730972295774" duration="3158000" />
+      <workItem from="1730989305201" duration="785000" />
     </task>
     <servers />
   </component>
@@ -139,7 +147,7 @@
     <option name="unityProject" value="true" />
     <option name="unityProjectFolder" value="true" />
   </component>
-  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>

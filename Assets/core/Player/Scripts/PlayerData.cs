@@ -11,10 +11,13 @@ public class PlayerData : MonoBehaviour, IDamageable
     
     public GameObject bullet;
     public Transform bulletSpawnPoint;
-    public float BulletSpeed  = 10f;
-    public float FireRate  = 0.5f;
-    public float NumberOfBullets  = 1;
+    public float BulletSpeed = 10f;
+    public float FireRate = 0.5f;
+    public float NumberOfBullets = 1;
     public float FirePower = 1f;
+    
+    public AudioClip shootSound; // Dźwięk strzału
+    private AudioSource _audioSource; // Komponent do odtwarzania dźwięków
 
     private float _nextFireTime = 0f;
     
@@ -27,14 +30,15 @@ public class PlayerData : MonoBehaviour, IDamageable
         currentLevel;
 
     public Slider HealthBar;
-    
-    
 
     private void Start()
     {
         currentHealth = maxHealth;
         HealthBar.maxValue = maxHealth;
         HealthBar.value = currentHealth;
+        
+        // Pobierz komponent AudioSource (upewnij się, że jest dodany do obiektu)
+        _audioSource = GetComponent<AudioSource>();
     }
 
     public void TakeDamage(float damage)
@@ -61,6 +65,12 @@ public class PlayerData : MonoBehaviour, IDamageable
 
     private void Shoot(Vector2 aimDirection)
     {
+        // Odtwarzanie dźwięku strzału
+        if (shootSound != null && _audioSource != null)
+        {
+            _audioSource.PlayOneShot(shootSound);
+        }
+
         for (int i = 0; i < NumberOfBullets; i++)
         {
             GameObject bulletInstance = Instantiate(bullet, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
