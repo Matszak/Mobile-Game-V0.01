@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 50820881}
   - component: {fileID: 50820883}
   - component: {fileID: 50820884}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bullet: {fileID: 4986271477331407351, guid: d5d19e5108c856b4981b9bed9ba7ebb9, type: 3}
   bulletSpawnPoint: {fileID: 771383860}
-  BulletSpeed: 10
+  BulletSpeed: 11.7
   FireRate: 0.5
   NumberOfBullets: 1
   FirePower: 1
@@ -337,11 +337,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 5.5
-  cooldown: 1
+  cooldown: 3.1
   enemies:
   - {fileID: 5326717556583322677, guid: 135f7ae8a3be32940bbf2a6baac9da94, type: 3}
   - {fileID: 8898745837703711627, guid: 029a4cf35c522a64b87ab793b2ae5447, type: 3}
   - {fileID: 4876410319676088516, guid: 3724e2c59c67bea48810b0c69dcf4d8b, type: 3}
+  bulletEnemy: {fileID: 2537761376735300913, guid: e427ed1c969a5a04b9f76d7e763e1a55, type: 3}
+--- !u!114 &105270043 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7641479468102338634, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+  m_PrefabInstance: {fileID: 2266325331082857557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab243c07d432c9d4ab4f9be3cd3d7e0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &122691376
 GameObject:
   m_ObjectHideFlags: 0
@@ -545,7 +557,7 @@ GameObject:
   - component: {fileID: 404614717}
   - component: {fileID: 404614719}
   - component: {fileID: 404614718}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -756,7 +768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 599394487}
   - component: {fileID: 599394488}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: HealthBarPlayer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +940,7 @@ GameObject:
   - component: {fileID: 631302636}
   - component: {fileID: 631302638}
   - component: {fileID: 631302637}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1004,7 +1016,7 @@ GameObject:
   - component: {fileID: 771383863}
   - component: {fileID: 771383862}
   - component: {fileID: 771383861}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1020,7 +1032,7 @@ Transform:
   m_GameObject: {fileID: 771383859}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.775, y: -0.22, z: 0}
+  m_LocalPosition: {x: 1.094, y: -0.31, z: 0}
   m_LocalScale: {x: 0.3534, y: 0.14874911, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1108,7 +1120,8 @@ GameObject:
   - component: {fileID: 1303124652}
   - component: {fileID: 1303124651}
   - component: {fileID: 1303124650}
-  m_Layer: 0
+  - component: {fileID: 1303124653}
+  m_Layer: 6
   m_Name: Enemy 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1133,7 +1146,7 @@ MonoBehaviour:
   attackRange: 8.73
   health: 5
   maxHealth: 5
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 105270043}
   target: {fileID: 50820877}
   cooldown: 1
   bullet: {fileID: 2537761376735300913, guid: e427ed1c969a5a04b9f76d7e763e1a55, type: 3}
@@ -1205,6 +1218,51 @@ Transform:
   - {fileID: 1790318448}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1303124653
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303124649}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1379974493
 GameObject:
   m_ObjectHideFlags: 0
@@ -1292,7 +1350,7 @@ GameObject:
   - component: {fileID: 1419869943}
   - component: {fileID: 1419869942}
   - component: {fileID: 1419869941}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1391,7 +1449,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1469580712}
-  m_Layer: 5
+  m_Layer: 7
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1663,6 +1721,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1303124652}
     m_Modifications:
+    - target: {fileID: 1072603229437501237, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1887401294770689744, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1671,9 +1733,17 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2155608478020962755, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2892728283719150943, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2892728283719150943, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3884669093499675769, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: m_Pivot.x
@@ -1755,6 +1825,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6281602084720421044, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7641479468102338634, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: camera
       value: 
@@ -1767,6 +1841,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 7820559264850730901, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4904271432274904799}
   - component: {fileID: 3762287510397799696}
   - component: {fileID: 1716426290790561221}
+  - component: {fileID: 1882225485933584562}
   m_Layer: 0
   m_Name: shootingGhost
   m_TagString: Untagged
@@ -108,6 +109,51 @@ MonoBehaviour:
   target: {fileID: 3956619906558107562, guid: 6ffad1e8c8f999446ac96da33c6c52c0, type: 3}
   cooldown: 1
   bullet: {fileID: 2537761376735300913, guid: e427ed1c969a5a04b9f76d7e763e1a55, type: 3}
+--- !u!61 &1882225485933584562
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8898745837703711627}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0.25, y: 0.25, z: 0.25, w: 0.25}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 2
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1001 &688959712286914980
 PrefabInstance:
   m_ObjectHideFlags: 0

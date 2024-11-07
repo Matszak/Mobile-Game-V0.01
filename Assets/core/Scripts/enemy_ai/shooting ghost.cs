@@ -8,7 +8,7 @@ namespace core.Scripts.enemy_ai
     {
         [SerializeField] public Transform target;
         [SerializeField] protected float cooldown;
-        [SerializeField] protected GameObject bullet;
+        [SerializeField] public GameObject bullet;
 
         private float _lastAttackTime;
         private void Awake()

@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf80980-6268-459f-8639-cc934c2ed05a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Bullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/SpawnAroundPlayer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/SpawnAroundPlayer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Player/bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/bullet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/shooting ghost.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +54,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "merge",
+    "git-widget-placeholder": "bullet",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,6 +125,7 @@
       <workItem from="1730925915420" duration="919000" />
       <workItem from="1730927055689" duration="638000" />
       <workItem from="1730929187966" duration="2035000" />
+      <workItem from="1730972295774" duration="3158000" />
     </task>
     <servers />
   </component>

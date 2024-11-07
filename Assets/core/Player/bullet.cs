@@ -3,16 +3,25 @@ using System.Collections;
 using System.Collections.Generic;
 using core.Scripts.enemy_ai;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class bullet : MonoBehaviour
 {
-
+    public Vector2 aimDirection;
+    public float firePower = 1f;
+    public float bulletSpeed;
+    private Rigidbody2D _rigidbody2D;
+    [SerializeField] private float lifeTime = 3;
     [SerializeField] private float damage;
-    private Collider2D _collider2D;
-    // Start is called before the first frame update
+    
+    private void Awake()
+    {
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+    }
     void Start()
     {
-        _collider2D = GetComponent<Collider2D>();
+        _rigidbody2D.AddForce(aimDirection  * bulletSpeed  , ForceMode2D.Impulse );
+        StartCoroutine(DestroyBullet());
     }
 
     // Update is called once per frame
@@ -25,10 +34,16 @@ public class bullet : MonoBehaviour
     {
         if (other.collider.TryGetComponent(out EnemyAI enemyAI))
         {
-            enemyAI.TakeDamage(damage);
+            enemyAI.TakeDamage(firePower);
+            Destroy(gameObject);
         }
-        
+         
     }
     
- 
+    private IEnumerator DestroyBullet()
+    {
+        yield return new WaitForSeconds(lifeTime);
+        Destroy(this);
+    }
+
 }

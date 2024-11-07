@@ -12,6 +12,8 @@ public class SpawnAroundPlayer : MonoBehaviour
     private float _timeSinceSpawn;
 
     [SerializeField] private GameObject[] enemies;
+
+    [Header("bullet")] [SerializeField] private GameObject bulletEnemy;
  
     // Update is called once per frame
     void Update()
@@ -35,6 +37,7 @@ public class SpawnAroundPlayer : MonoBehaviour
                     if (enemyAI.TryGetComponent(out shooting_ghost shootingGhost))
                     {
                         shootingGhost.target = transform;
+                        shootingGhost.bullet =  bulletEnemy;
                     }
                 }
             }

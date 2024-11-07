@@ -64,9 +64,10 @@ public class PlayerData : MonoBehaviour, IDamageable
         for (int i = 0; i < NumberOfBullets; i++)
         {
             GameObject bulletInstance = Instantiate(bullet, bulletSpawnPoint.position, bulletSpawnPoint.rotation);
-            Rigidbody2D bulletRB = bulletInstance.GetComponent<Rigidbody2D>();
-                
-            bulletRB.velocity = aimDirection.normalized * BulletSpeed * FirePower;
+            var bulletScript = bulletInstance.GetComponent<bullet>();
+            bulletScript.aimDirection = aimDirection;
+            bulletScript.firePower = FirePower;
+            bulletScript.bulletSpeed = BulletSpeed;
         }
     }
 }
