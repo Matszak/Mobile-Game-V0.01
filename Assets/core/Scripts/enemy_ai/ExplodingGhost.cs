@@ -12,13 +12,20 @@ namespace core.Scripts.enemy_ai
         [SerializeField] private float explosionRadius;
         [SerializeField] private float damageAmount;
         
+        public AudioClip dieSound; 
+        private AudioSource _audioSource;
+
         protected override void Attack()
         {
             StartCoroutine(WaitAndExplode());
         }
 
-        IEnumerator WaitAndExplode( )
+
+        IEnumerator WaitAndExplode()
         {
+
+            GetComponent<AudioSource>().PlayOneShot(dieSound);
+
             yield return new WaitForSeconds(timeToExplosion);
 
             Collider2D[] colliders = Physics2D.OverlapCircleAll(transform.position, explosionRadius);
@@ -29,8 +36,8 @@ namespace core.Scripts.enemy_ai
                     damageable.TakeDamage(damageAmount);
                 }
             }
+
             Destroy(gameObject);
-            _currentState = EnemyState.Die;
 
         }
     }
