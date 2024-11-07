@@ -28,8 +28,8 @@ Transform:
   m_GameObject: {fileID: 8898745837703711627}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: 1, z: 0}
-  m_LocalScale: {x: 1.5625, y: 1.5625, z: 1}
+  m_LocalPosition: {x: 0.99941, y: 0.14264, z: 0}
+  m_LocalScale: {x: 3.5732813, y: 3.5732813, z: 2.2869}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 4352360429261299165}
@@ -252,7 +252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3884669093499675769, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.683
+      value: 0.38
       objectReference: {fileID: 0}
     - target: {fileID: 3884669093499675769, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -265,6 +265,30 @@ PrefabInstance:
     - target: {fileID: 3884669093499675769, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180472451760921014, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3677867
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180472451760921014, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5485264
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180472451760921014, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.43499318
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180472451760921014, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.022096
+      objectReference: {fileID: 0}
+    - target: {fileID: 4180472451760921014, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839312010379583073, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6281602084720421044, guid: f87273d0cbdd038478a85862b4243e66, type: 3}
       propertyPath: m_Layer
