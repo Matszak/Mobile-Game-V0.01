@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fdf80980-6268-459f-8639-cc934c2ed05a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/EnemyHealthBar.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/EnemyHealthBar.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/HealthBarEnemy.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/HealthBarEnemy.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Bullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Bullet.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/FloatingHealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/FloatingHealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +112,7 @@
       <workItem from="1730919471867" duration="6279000" />
       <workItem from="1730925915420" duration="919000" />
       <workItem from="1730927055689" duration="638000" />
-      <workItem from="1730929187966" duration="1762000" />
+      <workItem from="1730929187966" duration="2035000" />
     </task>
     <servers />
   </component>
