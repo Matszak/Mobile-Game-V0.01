@@ -7,6 +7,8 @@ public class ExperienceManager : MonoBehaviour
 {
     public static ExperienceManager Instance;
 
+    public delegate void ExperienceChangeHandler(int amount);
+
     private void Awake()
     {
         if (Instance != null && Instance != this)

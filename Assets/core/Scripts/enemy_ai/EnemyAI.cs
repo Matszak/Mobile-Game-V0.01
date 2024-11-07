@@ -105,6 +105,7 @@ namespace core.Scripts.enemy_ai
 
         protected void Die()
         {
+            PlayerData.instance.GetExp(50);
             Destroy(gameObject);
         }
     }

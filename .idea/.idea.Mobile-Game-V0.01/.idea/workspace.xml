@@ -7,13 +7,10 @@
     <list default="true" id="fdf80980-6268-459f-8639-cc934c2ed05a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Mobile-Game-V0.01/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/ExplodingGhost.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Player/Scripts/PlayerData.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/9-Sliced.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/WalkingGhost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/shootingGhost.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/ExperienceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/ExperienceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/core/Scripts/enemy_ai/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +34,9 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/core/Player/Scripts/SpawnAroundPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -133,7 +133,7 @@
       <workItem from="1730927055689" duration="638000" />
       <workItem from="1730929187966" duration="2035000" />
       <workItem from="1730972295774" duration="3158000" />
-      <workItem from="1730989305201" duration="785000" />
+      <workItem from="1730989305201" duration="2468000" />
     </task>
     <servers />
   </component>
